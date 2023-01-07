@@ -1,0 +1,359 @@
+@media screen and (max-width: 1100px) {
+    .action-image {
+        top: 50px;
+        right: 90px;
+        width: 336px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .action-image {
+        right: 32px;
+        top: 180px;
+    }
+}
+
+/* FOR TABLET */
+
+@media screen and (max-width: 1198px) {
+
+    /* header */
+    header {
+        margin-bottom: 64px;
+    }
+
+    .navigation,
+    .header-action {
+        padding: 0 32px;
+    }
+
+    /* cards */
+    .cards-container {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .cards-title {
+        font-size: 36px;
+        line-height: 46px;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 66px;
+    }
+
+    .cards-title {
+        padding: 0 32px;
+    }
+
+    .card {
+        margin: 0 216px
+    }
+
+    .card-image:first-of-type {
+        width: 160px;
+    }
+
+    .card-image:nth-of-type(2) {
+        width: 124px;
+    }
+
+    .card-image:last-of-type {
+        width: 138px;
+    }
+
+    .main-cards {
+        margin-bottom: 126px;
+    }
+
+    /* projects */
+    .project-one,
+    .projects-wrapper {
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+
+    .project-title-two {
+        left: 18px;
+    }
+
+    /* footer */
+    .contacts-list {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .contact-item {
+        padding-left: 50px;
+        max-width: 100%;
+    }
+
+    .footer-end-wrapper {
+        padding-left: 132px;
+        padding-right: 50px;
+    }
+}
+
+
+@media screen and (max-width: 766px) {
+    .action-image {
+        visibility: hidden;
+    }
+
+    .header-action {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .action-title,
+    .action-text {
+        text-align: center;
+    }
+
+    .card {
+        margin: 0 210px;
+    }
+
+}
+
+@media screen and (max-width: 760px) {
+    .card {
+        margin: 0 200px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .card {
+        margin: 0 190px;
+    }
+}
+
+@media screen and (max-width: 724px) {
+    .card {
+        margin: 0 180px;
+    }
+}
+
+@media screen and (max-width: 699px) {
+    .card {
+        margin: 0 170px;
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .card {
+        margin: 0 160px;
+    }
+}
+
+
+@media screen and (max-width: 654px) {
+    .card {
+        margin: 0 150px;
+    }
+}
+
+@media screen and (max-width: 637px) {
+    .card {
+        margin: 0 140px;
+    }
+}
+
+@media screen and (max-width: 617px) {
+    .card {
+        margin: 0 130px;
+    }
+}
+
+@media screen and (max-width: 597px) {
+    .card {
+        margin: 0 120px;
+    }
+}
+
+@media screen and (max-width: 577px) {
+    .card {
+        margin: 0 110px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 557px) {
+    .card {
+        margin: 0 100px;
+    }
+}
+
+@media screen and (max-width: 537px) {
+    .card {
+        margin: 0 90px;
+    }
+}
+
+@media screen and (max-width: 517px) {
+    .card {
+        margin: 0 80px;
+    }
+}
+
+@media screen and (max-width: 497px) {
+    .card {
+        margin: 0 70px;
+    }
+}
+
+@media screen and (max-width: 477px) {
+    .card {
+        margin: 0 60px;
+    }
+}
+
+@media screen and (max-width: 457px) {
+    .card {
+        margin: 0 50px;
+    }
+}
+
+@media screen and (max-width: 437px) {
+    .card {
+        margin: 0 40px;
+    }
+}
+
+@media screen and (max-width: 417px) {
+    .card {
+        margin: 0 30px;
+    }
+}
+
+@media screen and (max-width: 397px) {
+    .card {
+        margin: 0 20px;
+    }
+}
+
+/* FOR TELEPHONE */
+@media screen and (max-width: 400px) {
+
+    /* header */
+    .header-wrapper {
+        max-height: 450px;
+    }
+
+    .navigation {
+        margin-bottom: 28px;
+    }
+
+    .action-title {
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 12px;
+    }
+
+    .action-text {
+        margin-bottom: 32px;
+    }
+
+    /* main */
+    /* cards */
+    .main-cards {
+        margin-bottom: 64px;
+    }
+
+    .cards-title {
+        font-size: 24px;
+        line-height: 28px;
+        padding: 0 13px;
+        margin-bottom: 32px;
+    }
+
+    /* projects */
+    .main-projects {
+        margin-bottom: 64px;
+    }
+
+    .projects-title {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .projects-text {
+        width: 100%;
+        margin: 0 auto 82px 0;
+    }
+
+    .project-image {
+        border-radius: 10px;
+    }
+
+    .project-one,
+    .projects-wrapper {
+        margin: 0 17px;
+    }
+
+    .project-one {
+        margin: 16px;
+    }
+
+    .projects-wrapper {
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .project-title {
+        top: 16px;
+        right: 16px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    /* footer */
+    .footer-work {
+        flex-wrap: wrap;
+        padding: 0;
+        margin: 16px auto 0;
+    }
+
+    .footer-work-text {
+        text-align: center;
+    }
+
+    .work-title {
+        font-size: 24px;
+        line-height: 28px;
+        padding: 0 40px;
+    }
+
+    .work-text {
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .work-link {
+        margin: 0 auto 40px;
+    }
+
+    .footer-end-wrapper {
+        padding: 32px 16px 16px;
+    }
+
+    .contact-item {
+        padding: 0;
+    }
+
+    .contacts-list {
+        margin-bottom: 32px;
+        padding: 0 20px;
+    }
+
+    .copyright {
+        margin: 0 auto;
+        text-align: center;
+    }
+}
